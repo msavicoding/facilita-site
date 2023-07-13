@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facilita Site</title>
+  <meta name="title" content="Facilita Site">
+  <meta name="description" content="Site oficial da Facilita Sites">
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preload" as="image" href="hero-bg.jpg">
+  <link rel="preload" as="image" href="hero-slide-1.jpg">
+  <link rel="preload" as="image" href="hero-slide-2.jpg">
+  <link rel="preload" as="image" href="hero-slide-3.jpg">
+
+</head>
+
+<body>
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="facilitasite.jpg" width="150" height="24" alt="Adex home" class="logo-light">
+        <img src="logo.png" width="150" height="24" alt="Adex home" class="logo-dark">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="facilitasite.jpg" width="150" height="24" alt="Adex home">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="https://facilitasite.com/" class="navbar-link">Página inicial</a>
+          </li>
+
+          <li>
+            <a href="https://facilitasite.com/ampplo" class="navbar-link">Exemplo de site</a>
+          </li>
+
+          <li>
+            <a target="_blank" href="https://www.instagram.com/facilitasite_oficial/" class="navbar-link">Instagram</a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:contatofacilitasite@gmail.com" class="contact-link">contatofacilitasite@gmail.com</a>
+        </div>
+
+        <ul class="social-list">
+
+          <li>
+            <a target="_blank" href="https://www.instagram.com/facilitasite_oficial/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://youtube.com/" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <a href="https://wa.me/5511989351635?text=Ol%C3%A1%2C+Fernando%21+Vim+pela+Facilita+Site.+Consegue+me+ajudar%3F" class="btn btn-primary">Falar conosco</a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      
+
+      <section class="section hero has-bg-image" aria-label="home"
+        style="background-color: #1446A0">
+        <div class="container">
+
+          <div class="hero-content">
+            <h1 class="title-h1">Criamos seu site em <span class="yellow-hero-title">24 horas</span> por apenas <span class="yellow-hero-title">R$9,82/mês</span></h1>
+            <p class="hero-text">
+              Criamos seu site profissional em menos de 24 horas, você só precisa responder algumas perguntas. 
+            </p>
+
+            <div class="btn-wrapper">
+
+              <a href="https://seguro.facilitasite.com/r/GTRHESRTC6" class="btn btn-primary">Criar meu site hoje</a>
+
+              <a target="_blank" href="https://wa.me/5511989351635?text=Ol%C3%A1%2C+Fernando%21+Vim+pela+Facilita+Site.+Consegue+me+ajudar%3F" class="btn btn-outline">Falar com atendente</a>
+
+            </div>
+
+          </div>
+
+          <div class="hero-slider" data-slider>
+
+            <div class="slider-inner">
+              <ul class="slider-container" data-slider-container>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="hero-slide-1.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <div class="hero-card">
+                    <figure class="img-holder" style="--width: 575; --height: 550;">
+                      <img src="hero-slide-2.jpg" width="575" height="550" alt="hero banner"
+                        class="img-cover">
+                    </figure>
+
+                    <button class="play-btn" aria-label="play adex intro">
+                      <ion-icon name="play" aria-hidden="true"></ion-icon>
+                    </button>
+                  </div>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="hero-slide-3.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+              </ul>
+            </div>
+
+            <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
+              <ion-icon name="arrow-back"></ion-icon>
+            </button>
+
+            <button class="slider-btn next" aria-label="slide to next" data-slider-next>
+              <ion-icon name="arrow-forward"></ion-icon>
+            </button>
+
+          </div>
+
+        </div>
+      </section>
+
+   
+
+      <section class="section-2 feature" aria-labelledby="feature-label">
+        <div class="container">
+
+
+          <div class="feature-content">
+
+           
+
+            <h2 class="h2 section-title eighty">
+              Brasil tem 152 milhões de pessoas com acesso à internet
+            </h2>
+
+            <p class="section-text eighty">Criando seu site você poderá ser encontrado por cada uma dessas pessoas. Conheça outros benefícios:</p>
+
+            <ul class="feature-list">
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Site funcionando 24 horas por dia
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                   Seja encontrado no Google
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                   Aumente suas vendas
+                  </span>
+
+                </div>
+              </li>
+
+      
+            </ul>
+          
+
+          </div>
+
+  
+          <figure class="feature-banner">
+            <img src="hero-slide-4.jpg" width="800" height="531" loading="lazy" alt="feature banner"
+              class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+      <section class="section service" aria-labelledby="service-label">
+        <div class="container">
+
+          <p class="section-subtitle" id="service-label">O que nós fazemos?</p>
+
+          <h2 class="h2 section-title">
+           Desenvolvemos sites profissionais por um preço acessível.
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Suporte via Whatsapp</h3>
+
+                <p class="card-text">
+                  Atendimento todos os dias pelo Whatsapp.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Pagamento Seguro</h3>
+
+                <p class="card-text">
+                  Adquira seu site por PIX, cartão ou boleto. O que você preferir!
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Site Protegido</h3>
+
+                <p class="card-text">
+                  Seu site protegido pela Cloudflare e GitHub, duas das melhores empresas de computação do mundo.
+                </p>
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="pie-chart-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Preço acessível</h3>
+
+                <p class="card-text">
+                  Nossa missão é digitalizar o maior número possível de empresas no Brasil.
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      
+
+
+<!-- Offer -->
+
+
+          <div class="div-offer">
+            <h2 class="h2 section-title eighty">Seu site em 24 horas por R$97,80  (ou 12x de R$9,82)</h2>
+            <p class="section-text">Responda algumas perguntas e o resto é por nossa responsabilidade. Programamos seu site em até 24 horas e enviamos para você.</p>
+            <form action="https://seguro.facilitasite.com/r/GTRHESRTC6">
+              <button class="button-2" type="submit">Criar meu site hoje</button>
+            </form>
+          </div>
+
+          <div class="div-faq">
+            <h2 class="h2 section-title eighty">Perguntas Frequentes</h2>
+
+            <div class="div-faq-box">
+              <h2>Qual o período de reembolso?</h2>
+              <p>7 dias após a entrega do site</p>
+            </div>
+
+            <div class="div-faq-box">
+              <h2>Quanto tempo dura o site?</h2>
+              <p>Site dura por 1 ano, após isso, cobramos uma taxa de manutenção de R$14,90/ano</p>
+            </div>
+
+            <div class="div-faq-box">
+              <h2>Consigo escolher meu domínio?</h2>
+              <p>Você pode escolher o nome da sua loja, por exemplo facilitasite.com/minhaloja, ou solicitar por um domínio.</p>
+            </div>
+
+            <div class="div-faq-box">
+              <h2>Pagamento é seguro?</h2>
+              <p>Sim! Usamos a AppMax para gerenciar os pagamentos, plataforma 100% segura e com certificados de segurança.</p>
+            </div>
+
+
+            <form action="https://seguro.facilitasite.com/r/GTRHESRTC6">
+              <button class="button-2" type="submit">Criar meu site hoje</button>
+            </form>
+          </div>
+
+
+      </section>
+
+
+      
+
+    </article>
+
+    
+  </main>
+
+  <footer class="footer">
+    <div class="container grid-list">
+
+      <div class="footer-brand">
+
+        <a href="#" class="logo">
+          <img src="facilitasite.jpg" width="74" height="24" alt="Adex home">
+        </a>
+
+        <p class="footer-text">
+          &copy; 2023 facilitasite.com <br> Todos os direitos reservados.
+        </p>
+
+        <ul class="social-list">
+
+     
+
+          <li>
+            <a target="_blank" href="https://www.instagram.com/facilitasite_oficial/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+
+        </ul>
+
+      </div>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Contato</p>
+        </li>
+
+        <li>
+          <address class="footer-text">
+            Estrafa Francisco da Cruz Nunes, Niterói (RJ)
+          </address>
+        </li>
+
+        <li>
+          <a href="mailto:contato@facilitasite.com" class="footer-link">contatofacilitasite@gmail.com</a>
+        </li>
+
+        <li>
+          CNPJ: 42.674.865/0001-83
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Saiba Mais</p>
+        </li>
+
+        <li>
+          <a target="_blank" href="https://facilitasite.com/ampplo" class="footer-link">Exemplo de site</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Fale conosco</a>
+        </li>
+
+      </ul>
+
+
+    </div>
+  </footer>
+
+
+  <script src="script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
